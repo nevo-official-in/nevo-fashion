@@ -64,13 +64,13 @@ const HeroSection = () => {
           </p>
 
           <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            onClick={scrollToProducts}
-            className="mt-12 border border-white/30 text-white px-12 py-4 text-[10px] sm:text-xs uppercase tracking-[0.3em] transition-all duration-300 hover:bg-white hover:text-black backdrop-blur-md"
-          >
-            Shop Collection
-          </motion.button>
+  whileHover={{ scale: 1.05, backgroundColor: "white", color: "black" }}
+  whileTap={{ scale: 0.95 }}
+  className="mt-12 border border-white/40 text-white px-12 py-4 text-[11px] uppercase tracking-[0.4em] bg-black/20 transition-all duration-300 ease-out"
+>
+  Shop Collection
+</motion.button>
+
         </motion.div>
       </div>
 
